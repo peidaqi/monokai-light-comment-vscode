@@ -1,0 +1,22 @@
+{
+    "name": "monokai-light-comment",
+    "displayName": "Monokai-light-comment",
+    "description": "A fork of the Monokai theme with lighter comments so it's easier to read from the dark background.",
+    "version": "0.0.1",
+    "publisher": "peidaqi",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai-light-comment",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-light-comment-color-theme.json"
+            }
+        ]
+    }
+}
